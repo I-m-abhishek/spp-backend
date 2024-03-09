@@ -9,7 +9,7 @@ def make_prediction():
     try:
         data = request.json
         input_data = data['input_data']
-
+        
         # Call the predict function from predict_model.py
         prediction = predict(input_data)
 
