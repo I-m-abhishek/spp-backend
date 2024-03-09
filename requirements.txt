@@ -1,6 +1,6 @@
 Flask
 flask-cors
-numpy
+numpy==1.24.3
 tensorflow
 scikit-learn
 joblib
