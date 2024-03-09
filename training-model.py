@@ -45,4 +45,5 @@ model.compile(loss='mse', optimizer='adam', metrics=['RootMeanSquaredError'])
 hist = model.fit(X_train_scaled, y_train_scaled, batch_size=32, validation_data=(X_test_scaled, y_test_scaled), epochs=150, verbose=2)
 
 # Save the trained model
-model.save('solar-power-model.keras')
+model.save('solar-power-model-new.keras')
+
