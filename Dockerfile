@@ -17,4 +17,4 @@ COPY . .
 EXPOSE 5000
 
 # Set the main script for the container
-CMD ["python", "server.py"]  
+CMD ["python", "app.py"]  
